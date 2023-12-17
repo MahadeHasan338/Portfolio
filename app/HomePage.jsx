@@ -1,5 +1,4 @@
 "use client";
-import { data } from "@/types/main";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Skills from "@/components/skills/Skills";
@@ -18,12 +17,9 @@ const HomePage = () => {
       <Hero />
       <Socials />
       <About />
-      {/*<Skills skillData={data.skills} />
-      <Projects projectsData={data.projects} />
-      <Experiences
-        experienceData={data.experiences}
-        educationData={data.educations}
-      />
+      <Skills />
+      <Experiences />
+      {/*<Projects projectsData={data.projects} />
       <Contact />
       <CallToAction />
       <Footer socials={data.socials} name={data.main.name} /> */}

@@ -34,7 +34,7 @@ const Hero = () => {
               alt="waving-hand"
               width={30}
               height={30}
-              src="/waving-hand.gif"
+              src="/hero/waving-hand.gif"
             />
             <p className="text-lg md:text-xl mt-2 md:mt-1.5">Hey</p>
           </div>

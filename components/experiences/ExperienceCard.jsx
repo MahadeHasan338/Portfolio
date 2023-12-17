@@ -2,17 +2,8 @@ import { MdSchool, MdWork } from 'react-icons/md'
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 
-interface ExperienceProps {
-  index: number,
-  company: string,
-  position: string,
-  desc: string[],
-  institute: string,
-  degree: string,
-  duration: string,
-}
 
-const Experience = ({ index, company, position, desc, institute, degree, duration }: ExperienceProps) => {
+const Experience = ({ index, company, position, desc, institute, degree, duration }) => {
 
   const [ref, inView] = useInView({
     threshold: 0.5,
