@@ -16,7 +16,7 @@ const Contact = () => {
     const [loading, setLoading] = useState(false);
     const [success, setSuccess] = useState(false);
 
-    const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
 
         if (!values.name.trim() || !values.email.trim() || !values.message.trim()) {
@@ -45,7 +45,7 @@ const Contact = () => {
         });
     };
 
-    const handleChange = (e: | React.ChangeEvent<HTMLInputElement> | React.ChangeEvent<HTMLTextAreaElement>) => {
+    const handleChange = (e) => {
         setValues((prevInput) => ({
             ...prevInput,
             [e.target.name]: e.target.value,
@@ -58,8 +58,7 @@ const Contact = () => {
             <ToastContainer />
 
             <div className="w-full lg:w-5/6 2xl:w-3/4 mt-10 md:mt-16 mx-auto flex justify-between rounded-xl">
-                {/* blurDataURL="https://i.imgur.com/owZdhjA.png" */}
-                <Image unoptimized={true} quality={100} alt="contact" src="/contact.png" className="hidden md:block w-1/2 h-full object-cover" width={1000} height={1000} />
+                <Image unoptimized={true} quality={100} alt="contact" src="/contact/contact.png" className="hidden md:block w-1/2 h-full object-cover" width={1000} height={1000} />
                 <div className="flex-1">
                     <h3 className="text-2xl">Get in touch</h3>
                     <p className="text-gray-400 mb-4 text-sm md:text-base">My inbox is always open. Whether you have a question or just want to say hello, I will try my best to get back to you!</p>
