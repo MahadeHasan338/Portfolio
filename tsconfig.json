@@ -24,6 +24,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/Header.jsx", "app/HomePage.jsx", "app/page.jsx", "components/Hero.jsx", "app/layout.jsx", "components/About.jsx", "components/Socials.jsx", "components/skills/SkillCard.jsx", "components/skills/Skills.jsx", "components/experiences/Experiences.jsx", "components/experiences/ExperienceCard.jsx", "components/Contact.jsx", "components/SectionWrapper.jsx", "app/Footer.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/Header.jsx", "app/HomePage.jsx", "app/page.jsx", "components/Hero.jsx", "app/layout.jsx", "components/About.jsx", "components/Socials.jsx", "components/skills/SkillCard.jsx", "components/skills/Skills.jsx", "components/experiences/Experiences.jsx", "components/experiences/ExperienceCard.jsx", "components/Contact.jsx", "components/SectionWrapper.jsx", "app/Footer.jsx", "components/projects/Projects.jsx", "components/projects/ProjectCard.jsx"],
   "exclude": ["node_modules"]
 }

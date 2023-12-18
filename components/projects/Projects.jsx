@@ -60,7 +60,7 @@ const Projects = () => {
   const [filteredProjects, setFilteredProjects] = useState(projects);
   const [viewAll, setViewAll] = useState(false);
 
-  const filterProjects = (cat: string) => {
+  const filterProjects = (cat) => {
     setViewAll(false);
     setCategory(cat);
     setFilteredProjects(
@@ -79,7 +79,7 @@ const Projects = () => {
       <h2 className="text-4xl text-center">Projects</h2>
 
       <div className="overflow-x-auto scroll-hide md:w-full max-w-screen-sm mx-auto mt-6 flex justify-between items-center gap-2 md:gap-3 bg-white dark:bg-grey-800 p-2 rounded-md">
-        {categories.map((c: string = "", i: number) => (
+        {categories.map((c, i) => (
           <span
             key={i}
             onClick={() => filterProjects(c)}
@@ -115,17 +115,7 @@ const Projects = () => {
 
 export default Projects;
 
-type MouseEventHandler = (event: React.MouseEvent<HTMLButtonElement>) => void;
-
-export const ViewAll = ({
-  handleClick,
-  title,
-  scrollTo,
-}: {
-  handleClick: MouseEventHandler;
-  title: string;
-  scrollTo: string;
-}) => {
+export const ViewAll = ({ handleClick, title, scrollTo }) => {
   return (
     <>
       <div className="bg-white dark:bg-grey-900 w-4/5 mx-auto blur-xl z-20 -translate-y-14 h-16"></div>

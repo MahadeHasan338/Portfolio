@@ -8,9 +8,9 @@ module.exports = {
   ],
   theme: {
     extend: {
-      // fontFamily: {
-      //   poppins: ['var(--font-poppins)']
-      // },
+      fontFamily: {
+        poppins: ['var(--font-poppins)']
+      },
       colors: {
         grey: {
           800: '#18141c',
