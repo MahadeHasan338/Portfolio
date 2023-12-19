@@ -1,7 +1,7 @@
 import TestimonialImg01 from "/public/testimonials/testimonial-01.webp";
 import TestimonialImg02 from "/public/testimonials/testimonial-02.webp";
 import TestimonialImg03 from "/public/testimonials/testimonial-03.webp";
-import FancyTestimonialsSlider from "../testimonials/testimonialCards";
+import FancyTestimonialsSlider from "./TestimonialCards";
 import SectionWrapper from "../SectionWrapper";
 
 export default function FancyTestimonialSliderPage() {
