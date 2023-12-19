@@ -5,6 +5,7 @@ import Skills from "@/components/skills/Skills";
 import Projects from "@/components/projects/Projects";
 import Socials from "@/components/Socials";
 import Experiences from "@/components/experiences/Experiences";
+import Testimonials from "@/components/testimonials/Testimonials";
 import Contact from "@/components/Contact";
 import Header from "./Header";
 import Footer from "./Footer";
@@ -19,6 +20,7 @@ const HomePage = () => {
       <Skills />
       <Projects />
       <Experiences />
+      <Testimonials />
       <Contact />
       <Footer />
     </>

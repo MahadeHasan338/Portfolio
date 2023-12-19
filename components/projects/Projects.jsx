@@ -138,7 +138,6 @@ export const ViewAll = ({ handleClick, title, scrollTo }) => {
             offset={-60}
             smooth={true}
             duration={500}
-            // @ts-ignore
             onClick={() => handleClick()}
           >
             {title}

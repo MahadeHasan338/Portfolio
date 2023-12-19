@@ -1,4 +1,4 @@
-import axios from "axios";
+
 import { useState } from "react";
 import { BiLoaderAlt } from "react-icons/bi";
 import SectionWrapper from "./SectionWrapper"
@@ -25,24 +25,24 @@ const Contact = () => {
         }
 
         setLoading(true);
-        axios.post("/api/mail", {
-            name: values.name,
-            email: values.email,
-            message: values.message,
-        }).then((res) => {
-            if (res.status === 200) {
-                setValues({ name: "", email: "", message: "" });
-                setLoading(false);
-                setSuccess(true);
-                toast.success(res.data.message)
-            } else {
-                setLoading(false);
-                toast.error(res.data.message)
-            }
-        }).catch((err) => {
-            setLoading(false);
-            toast.error(err.message)
-        });
+        // axios.post("/api/mail", {
+        //     name: values.name,
+        //     email: values.email,
+        //     message: values.message,
+        // }).then((res) => {
+        //     if (res.status === 200) {
+        //         setValues({ name: "", email: "", message: "" });
+        //         setLoading(false);
+        //         setSuccess(true);
+        //         toast.success(res.data.message)
+        //     } else {
+        //         setLoading(false);
+        //         toast.error(res.data.message)
+        //     }
+        // }).catch((err) => {
+        //     setLoading(false);
+        //     toast.error(err.message)
+        // });
     };
 
     const handleChange = (e) => {
