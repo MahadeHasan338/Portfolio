@@ -28,6 +28,63 @@ const Projects = () => {
       },
     },
     {
+      name: "WebChat Website",
+      image: "/projects/mern-stack/mern-7.webp",
+      category: "MERN Stack",
+      techstack: "HTML5, CSS3 JavaScript, NodeJS, Socket.io",
+      links: {
+        visit: "https://example.com/project3",
+        code: "https://github.com/example/project3",
+        video: "https://youtube.com/example-video3",
+      },
+    },
+    {
+      name: "ResumeGen",
+      image: "/projects/mern-stack/mern-3.webp",
+      category: "MERN Stack",
+      techstack: "JavaScript, ReactJS, Chakra UI, ContextAPI, Netlify",
+      links: {
+        visit: "https://example.com/project3",
+        code: "https://github.com/example/project3",
+        video: "https://youtube.com/example-video3",
+      },
+    },
+    {
+      name: "React Projects",
+      image: "/projects/mern-stack/mern-4.webp",
+      category: "MERN Stack",
+      techstack:
+        "ReactJS, Redux, NodeJS, ExpressJS, MongoDB, TailwindCSS, Material UI",
+      links: {
+        visit: "https://example.com/project3",
+        code: "https://github.com/example/project3",
+        video: "https://youtube.com/example-video3",
+      },
+    },
+    {
+      name: "Web UI Clones",
+      image: "/projects/mern-stack/mern-5.webp",
+      category: "MERN Stack",
+      techstack:
+        "HTML5, CSS3, TailwindCSS, JavaScript, NodeJS, jQuery, Netlify",
+      links: {
+        visit: "https://example.com/project3",
+        code: "https://github.com/example/project3",
+        video: "https://youtube.com/example-video3",
+      },
+    },
+    {
+      name: "Crypto Tracker",
+      image: "/projects/mern-stack/mern-6.webp",
+      category: "MERN Stack",
+      techstack: "JavaScript, ReactJS, Chakra UI, Coingecko API",
+      links: {
+        visit: "https://example.com/project3",
+        code: "https://github.com/example/project3",
+        video: "https://youtube.com/example-video3",
+      },
+    },
+    {
       name: "Instagram MERN",
       image: "/projects/mern-stack/mern-1.webp",
       category: "MERN Stack",

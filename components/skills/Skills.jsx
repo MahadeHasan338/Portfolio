@@ -10,9 +10,19 @@ const Skills = () => {
       image: "/tech/frontend/javascript.webp",
     },
     {
-      name: "NextJS",
+      name: "TypeScript",
       category: "Frontend",
-      image: "/tech/frontend/next.svg",
+      image: "/tech/frontend/typeScript.webp",
+    },
+    {
+      name: "AngularJS",
+      category: "Frontend",
+      image: "/tech/frontend/angular.webp",
+    },
+    {
+      name: "AngularJS",
+      category: "Frontend",
+      image: "/tech/frontend/vue.svg",
     },
     {
       name: "ReactJS",
@@ -25,9 +35,9 @@ const Skills = () => {
       image: "/tech/frontend/redux.webp",
     },
     {
-      name: "TypeScript",
+      name: "NextJS",
       category: "Frontend",
-      image: "/tech/frontend/typeScript.webp",
+      image: "/tech/frontend/next.svg",
     },
     {
       name: "Tailwind",
@@ -60,11 +70,6 @@ const Skills = () => {
       image: "/tech/frontend/sass.webp",
     },
     {
-      name: "jQuery",
-      category: "Frontend",
-      image: "/tech/frontend/jquery.webp",
-    },
-    {
       name: "NodeJS",
       category: "Backend",
       image: "/tech/backend/node-js.webp",
@@ -75,9 +80,49 @@ const Skills = () => {
       image: "/tech/backend/express-js.webp",
     },
     {
+      name: "NestJS",
+      category: "Backend",
+      image: "/tech/backend/nest.png",
+    },
+    {
+      name: "Java",
+      category: "Backend",
+      image: "/tech/backend/java.webp",
+    },
+    {
+      name: ".NET",
+      category: "Backend",
+      image: "/tech/backend/net.webp",
+    },
+    {
+      name: "Python",
+      category: "Backend",
+      image: "/tech/backend/python.png",
+    },
+    {
+      name: "Django",
+      category: "Backend",
+      image: "/tech/backend/django.webp",
+    },
+    {
+      name: "GoLang",
+      category: "Backend",
+      image: "/tech/backend/go.webp",
+    },
+    {
       name: "MongoDB",
       category: "Backend",
       image: "/tech/backend/mongo.webp",
+    },
+    {
+      name: "PostgreSQL",
+      category: "Backend",
+      image: "/tech/backend/postgres.png",
+    },
+    {
+      name: "MySQL",
+      category: "Backend",
+      image: "/tech/backend/mysql.png",
     },
     {
       name: "Firebase",
@@ -88,16 +133,6 @@ const Skills = () => {
       name: "AWS",
       category: "Backend",
       image: "/tech/backend/aws.webp",
-    },
-    {
-      name: "PHP",
-      category: "Backend",
-      image: "/tech/backend/php.webp",
-    },
-    {
-      name: "MySQL",
-      category: "Backend",
-      image: "/tech/backend/mysql.webp",
     },
     {
       name: "Google",
@@ -115,14 +150,14 @@ const Skills = () => {
       image: "/tech/others/studio.webp",
     },
     {
-      name: "SQLite",
-      category: "Others",
-      image: "/tech/others/lite.webp",
-    },
-    {
       name: "React Native",
       category: "Others",
       image: "/tech/others/react-native.webp",
+    },
+    {
+      name: "SQLite",
+      category: "Others",
+      image: "/tech/others/lite.webp",
     },
     {
       name: "Git",
@@ -133,6 +168,11 @@ const Skills = () => {
       name: "GitHub",
       category: "Others",
       image: "/tech/others/github.webp",
+    },
+    {
+      name: "Docker",
+      category: "Others",
+      image: "/tech/others/docker.png",
     },
     {
       name: "Jira",

@@ -9,7 +9,7 @@ const Socials = () => {
   const socials = [
     {
       id: 1,
-      link: "https://www.linkedin.com/in/mdshohelrana/",
+      link: "https://www.linkedin.com/in/mdshohelrana",
       icon: <FaLinkedin />,
     },
     {
@@ -19,12 +19,12 @@ const Socials = () => {
     },
     {
       id: 3,
-      link: "/",
+      link: "https://www.instagram.com/shohelrana85",
       icon: <FaInstagram />,
     },
     {
       id: 4,
-      link: "/",
+      link: "https://twitter.com/mdshohelrana85",
       icon: <BsTwitterX />,
     },
   ];

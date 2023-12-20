@@ -31,16 +31,19 @@ const About = () => {
               Lead Full Stack Engineer
             </p>
             <p className="text-sm md:text-base my-2 text-gray-600 dark:text-gray-300">
-              I am a Full-Stack developer based in Dhaka, Bangladesh. I am an
-              CSE from Rajshahi University, and my journey in web development
-              began during my first year of college. I am passionate about
-              creating beautiful, functional, and user-friendly websites and
-              applications, and I am constantly pushing myself to learn and grow
-              as a developer. Love building full-stack clones and side projects.
+              I am a seasoned Lead Full-Stack Engineer with 14+ years of
+              expertise in React, .NET, Python, and Node.js. Innovating in
+              healthcare, data analytics, and SaaS, I enhance software with
+              AI/ML, delivering robust, secure solutions. A driver of business
+              growth and tech evolution, I consistently surpass goals and foster
+              a You build, You run culture. Leveraging technology, I maximize
+              customer satisfaction and business success. I excel in delivering
+              high-quality solutions, ensuring accountability, and fostering
+              collaborative, diverse teams for professional growth.
             </p>
             <div className="flex items-center gap-4 md:mt-4">
               <Link
-                href="/"
+                href="https://drive.google.com/file/d/1GfPtcWoDYYPcwatobfIa2HwTe981_ZZK/view?usp=drive_link"
                 target="_blank"
                 className="text-sm md:text-base bg-violet-600 dark:bg-violet-700 text-white w-fit rounded-md py-2 px-6 hover:shadow-xl transition-shadow"
               >

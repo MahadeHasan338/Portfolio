@@ -19,7 +19,15 @@ export default function Header() {
     window.addEventListener("scroll", updateScroll);
   }, []);
 
-  const navs = ["home", "about", "skills", "projects", "experience","testimonials", "contact"];
+  const navs = [
+    "home",
+    "about",
+    "skills",
+    "projects",
+    "experience",
+    "testimonials",
+    "contact",
+  ];
 
   return (
     <header
@@ -27,7 +35,7 @@ export default function Header() {
         scroll ? "border-b bg-white bg-opacity-40" : "border-b-0"
       } dark:bg-grey-900 dark:bg-opacity-40 border-gray-200 dark:border-b-0 z-30 min-w-full flex flex-col fixed`}
     >
-      <nav className="lg:w-11/12 2xl:w-4/5 w-full md:px-6 2xl:px-0 mx-auto py-4 hidden sm:flex items-center justify-between">
+      <nav className="lg:w-11/12 2xl:w-4/5 w-full md:px-6 2xl:px-0 mx-auto py-4 hidden lg:flex items-center justify-between">
         <Link
           href={"/"}
           className="font-bold hover:text-violet-700 hover:dark:text-violet-500 transition-colors duration-300"
@@ -36,7 +44,7 @@ export default function Header() {
         </Link>
 
         <ul className="flex items-center gap-8">
-          {navs.map((e, i) => (
+          {navs.slice(0, 6).map((e, i) => (
             <li key={i}>
               <ScrollLink
                 className="hover:text-violet-700 hover:dark:text-violet-500 transition-colors capitalize cursor-pointer"
@@ -50,6 +58,22 @@ export default function Header() {
               </ScrollLink>
             </li>
           ))}
+          <Link
+            href="https://e2ecode.blogspot.com/"
+            className="hover:text-violet-700 hover:dark:text-violet-500 transition-colors capitalize cursor-pointer"
+          >
+            Blog
+          </Link>
+          <ScrollLink
+            to="contact"
+            offset={-60}
+            smooth={true}
+            duration={500}
+            onClick={() => setNavCollapse(true)}
+            className="hover:text-violet-700 hover:dark:text-violet-500 transition-colors capitalize cursor-pointer"
+          >
+            Contact
+          </ScrollLink>
           <span
             onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
             className="hover:bg-gray-100 hover:dark:bg-violet-700 p-1.5 rounded-full cursor-pointer transition-colors"
@@ -59,7 +83,7 @@ export default function Header() {
         </ul>
       </nav>
 
-      <nav className="font-bold p-4 flex sm:hidden items-center justify-between">
+      <nav className="font-bold p-4 flex lg:hidden items-center justify-between">
         Shohel Rana
         <div className="flex items-center gap-4">
           <span
@@ -73,20 +97,20 @@ export default function Header() {
       </nav>
 
       <div
-        className={`flex min-h-screen w-screen absolute md:hidden top-0 ${
+        className={`flex min-h-screen w-screen absolute lg:hidden top-0 ${
           !navCollapse ? "right-0" : "right-[-100%]"
         } bottom-0 z-50 ease-in duration-300`}
       >
-        <div className="w-1/4" onClick={() => setNavCollapse(true)}></div>
+        <div className="w-1/4 md:w-2/4" onClick={() => setNavCollapse(true)}></div>
 
-        <div className="flex flex-col p-4 gap-5 bg-gray-100/95 backdrop-filter backdrop-blur-sm dark:bg-grey-900/95 w-3/4">
+        <div className="flex flex-col p-4 gap-5 bg-gray-100/95 backdrop-filter backdrop-blur-sm dark:bg-grey-900/95 w-3/4 md:w-2/4">
           <CgClose
             className="self-end my-2"
             size={20}
             onClick={() => setNavCollapse(true)}
           />
 
-          {navs.slice(0, 4).map((e) => (
+          {navs.slice(0, 6).map((e) => (
             <ScrollLink
               key={e}
               className="hover:text-purple-600 py-1.5 px-4 rounded transition-colors capitalize cursor-pointer"
@@ -100,13 +124,19 @@ export default function Header() {
               {e}
             </ScrollLink>
           ))}
+          <Link
+            href="https://e2ecode.blogspot.com/"
+            className="hover:text-purple-600 py-1.5 px-4 rounded transition-colors capitalize cursor-pointer"
+          >
+            Blog
+          </Link>
           <ScrollLink
             to="contact"
             offset={-60}
             smooth={true}
             duration={500}
             onClick={() => setNavCollapse(true)}
-            className="px-6 py-1.5 rounded-md bg-violet-600 hover:bg-violet-700 text-white text-center"
+            className="hover:text-purple-600 py-1.5 px-4 rounded transition-colors capitalize cursor-pointer"
           >
             Contact
           </ScrollLink>

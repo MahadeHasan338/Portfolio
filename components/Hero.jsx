@@ -92,7 +92,7 @@ const Hero = () => {
             <Image
               alt="tech-stack"
               className="h-8 w-8 md:h-10 md:w-10 object-cover"
-              src="/hero/material-ui.webp"
+              src="/hero/project-manage.png"
               width={100}
               height={100}
             />
@@ -101,7 +101,7 @@ const Hero = () => {
             <Image
               alt="tech-stack"
               className="h-8 w-8 md:h-10 md:w-10 object-cover"
-              src="/hero/html-5.webp"
+              src="/hero/react.webp"
               width={100}
               height={100}
             />
@@ -110,7 +110,7 @@ const Hero = () => {
             <Image
               alt="tech-stack"
               className="h-6 w-6 md:h-10 md:w-10 object-cover"
-              src="/hero/redux.webp"
+              src="/hero/python.png"
               width={100}
               height={100}
             />
@@ -119,7 +119,7 @@ const Hero = () => {
             <Image
               alt="tech-stack"
               className="h-10 w-10 object-cover"
-              src="/hero/chakra-ui.webp"
+              src="/hero/node-js.webp"
               width={100}
               height={100}
             />
