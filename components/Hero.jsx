@@ -12,9 +12,9 @@ const Hero = () => {
       id="home"
       className={`${
         theme === "dark" && "bg-grey-900"
-      } relative min-h-screen w-full mx-auto overflow-hidden`}
+      } relative w-full mx-auto overflow-hidden`}
     >
-      <div className="absolute -z-10 min-h-screen h-full w-full">
+      <div className="absolute -z-10 h-full w-full">
         <Image
           src="/hero/herobg.jpg"
           layout="fill"

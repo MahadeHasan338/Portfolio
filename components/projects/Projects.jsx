@@ -30,7 +30,7 @@ const Projects = () => {
     {
       name: "WebChat Website",
       image: "/projects/mern-stack/mern-7.webp",
-      category: "Web Development",
+      category: "Web",
       techstack: "HTML5, CSS3 JavaScript, NodeJS, Socket.io",
       links: {
         visit: "https://example.com/project3",
@@ -41,7 +41,7 @@ const Projects = () => {
     {
       name: "ResumeGen",
       image: "/projects/mern-stack/mern-3.webp",
-      category: "Web Development",
+      category: "Web",
       techstack: "JavaScript, ReactJS, Chakra UI, ContextAPI, Netlify",
       links: {
         visit: "https://example.com/project3",
@@ -52,7 +52,7 @@ const Projects = () => {
     {
       name: "React Projects",
       image: "/projects/mern-stack/mern-4.webp",
-      category: "Web Development",
+      category: "Web",
       techstack:
         "ReactJS, Redux, NodeJS, ExpressJS, MongoDB, TailwindCSS, Material UI",
       links: {
@@ -64,7 +64,7 @@ const Projects = () => {
     {
       name: "Web UI Clones",
       image: "/projects/mern-stack/mern-5.webp",
-      category: "Web Development",
+      category: "Web",
       techstack:
         "HTML5, CSS3, TailwindCSS, JavaScript, NodeJS, jQuery, Netlify",
       links: {
@@ -76,7 +76,7 @@ const Projects = () => {
     {
       name: "Crypto Tracker",
       image: "/projects/mern-stack/mern-6.webp",
-      category: "Web Development",
+      category: "Web",
       techstack: "JavaScript, ReactJS, Chakra UI, Coingecko API",
       links: {
         visit: "https://example.com/project3",
@@ -87,7 +87,7 @@ const Projects = () => {
     {
       name: "Instagram MERN",
       image: "/projects/mern-stack/mern-1.webp",
-      category: "Web Development",
+      category: "Web",
       techstack:
         "ReactJS, Redux, NodeJS, ExpressJS, MongoDB, TailwindCSS, MUI, AWS S3, SendGrid, Socket.IO",
       links: {
@@ -99,7 +99,7 @@ const Projects = () => {
     {
       name: "Flipkart MERN",
       image: "/projects/mern-stack/mern-2.webp",
-      category: "Web Development",
+      category: "Web",
       techstack:
         "ReactJS, Redux, NodeJS, ExpressJS, MongoDB, TailwindCSS, MUI, Paytm, Cloudinary, SendGrid",
       links: {
@@ -126,13 +126,11 @@ const Projects = () => {
   };
 
   useEffect(() => {
-    filterProjects(
-      categories.includes("Web Development") ? "Web Development" : categories[0]
-    );
+    filterProjects(categories.includes("Web") ? "Web" : categories[0]);
   }, []);
 
   return (
-    <SectionWrapper id="projects" className="mx-4 md:mx-0 min-h-screen">
+    <SectionWrapper id="projects" className="mx-4 md:mx-0 mb-12 lg:mb-20">
       <h2 className="text-4xl text-center">Projects</h2>
 
       <div className="overflow-x-auto scroll-hide md:w-full max-w-screen-sm mx-auto mt-6 flex justify-between items-center gap-2 md:gap-3 bg-white dark:bg-grey-800 p-2 rounded-md">

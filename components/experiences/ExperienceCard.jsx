@@ -84,7 +84,9 @@ const Experience = ({
         </ul>
         {skills && (
           <div className="flex items-start space-x-2">
-            <p className="text-lg text-gray-500 dark:text-gray-400 font-medium">*</p>
+            <p className="text-lg text-gray-500 dark:text-gray-400 font-medium">
+              *
+            </p>
             <p className="text-sm text-gray-400 dark:text-gray-400">{skills}</p>
           </div>
         )}

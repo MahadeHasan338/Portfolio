@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import Image, { StaticImageData } from "next/image";
-import { Transition } from '@headlessui/react'
+import { Transition } from "@headlessui/react";
 
 export default function FancyTestimonialsSlider({ testimonials }) {
   const testimonialsRef = useRef(null);

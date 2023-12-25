@@ -56,7 +56,7 @@ export default function FancyTestimonialSliderPage() {
   return (
     <SectionWrapper
       id="testimonials"
-      className="mx-4 md:mx-0 min-h-screen flex flex-col items-center justify-center"
+      className="mx-4 md:mx-0 mb-28 lg:mb-40  flex flex-col items-center justify-center"
     >
       <h2 className="text-4xl text-center">Testimonials</h2>
 

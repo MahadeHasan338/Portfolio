@@ -5,7 +5,7 @@ const About = () => {
   return (
     <SectionWrapper
       id="about"
-      className="min-h-[90vh] pt-12 bg-gradient-to-b from-white to-gray-100/20 dark:from-grey-900 dark:to-grey-900"
+      className="mb-28 lg:mb-40 pt-5 bg-gradient-to-b from-white to-gray-100/20 dark:from-grey-900 dark:to-grey-900"
     >
       <h2 className="text-4xl text-center">About Me</h2>
 
