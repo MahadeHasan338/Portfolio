@@ -7,75 +7,142 @@ const Experiences = () => {
   const experienceData = [
     {
       company: "Union Group",
+      url: "https://www.linkedin.com/company/union-group-1989-ltd",
+      location: "Dhaka, Bangladesh | On Site",
       position: "Software Engineer",
       desc: [
-        "Engaged in comprehensive requirement analysis and actively participated in all development phases. Cultivated a collaborative culture that emphasized knowledge exchange, resulting in a remarkable 50% surge in salary. Assisted in writing clean, efficient, and modular code for various software projects, leveraging these skills to achieve exceptional outcomes.",
+        "Performed comprehensive requirement analysis and engaged actively in all development phases.",
+        "Cultivated a collaborative culture emphasizing knowledge exchange, leading to a remarkable 50% surge in salary.",
+        "Assisted in writing clean, efficient, and modular code for various software projects.",
+        "Leveraging these skills to achieve exceptional outcomes.",
       ],
       duration: "Oct 2009 - Nov 2010",
+      skills:
+        "JavaScript · C# · .NET Framework · Microsoft SQL Server · Crystal Reports · SQL · Visual Basic",
     },
     {
       company: "Next IT Ltd.",
+      url: "https://www.linkedin.com/company/nextitltd",
+      location: "Dhaka, Bangladesh | On Site",
       position: "Software Engineer",
       desc: [
-        "Delicately participated in daily coding tasks, continually expanding technological proficiency. Effectively managed and contributed to the successful execution of over 20 projects.",
+        "Dedicatedly participated in daily coding tasks, continually expanding technological proficiency.",
+        "Effectively managed and contributed to the successful execution of over 20 projects.",
       ],
       duration: "Dec 2010 - Dec 2012",
+      skills:
+        "JavaScript · C# · Agile Methodologies · .NET Framework · Microsoft SQL Server · jQuery · SQL · EF",
     },
     {
       company: "Next IT Ltd.",
+      url: "https://www.linkedin.com/company/nextitltd",
+      location: "Dhaka, Bangladesh | On Site",
       position: "Senior Software Engineer",
       desc: [
-        "Engaged in daily coding tasks with precision, continually expanding technological proficiency. Effectively managed and contributed to the successful execution of over 20 projects.",
+        "Spearheaded the design, development, and deployment of project components, yielding robust features and functionalities.",
+        "Successfully resolved critical project challenges, ensuring seamless progress.",
+        "Analyzed and recommended system enhancements, resulting in a 20% increase in overall project efficiency.",
       ],
       duration: "Jan 2013 - Dec 2016",
+      skills:
+        "Node.js · JavaScript · Angular · C# · .NET Framework · Microsoft SQL Server · jQuery · SQL · EF · Redis",
     },
     {
       company: "Next IT Ltd.",
+      url: "https://www.linkedin.com/company/nextitltd",
+      location: "Dhaka, Bangladesh | On Site",
       position: "Lead Software Engineer",
       desc: [
-        "Led a team of developers through the end-to-end software development cycle, including design, coding, testing, and debugging of applications. Provided training and mentorship to junior developers while staying current with the latest development tools and technologies. Effectively managed and coordinated frontend teams, including mobile, QA, and AI divisions, ensuring seamless collaboration and synchronization across diverse modules. Achieved a substantial 40% growth in product revenue by strategizing and executing an automated canteen ticketing system. Leveraging these competencies to drive outstanding achievements.",
+        "Led a team of developers through the end-to-end software development cycle, encompassing design, coding, testing, and debugging of applications.",
+        "Provided training and mentorship to junior developers while staying current with the latest development tools and technologies.",
+        "Effectively managed and coordinated frontend teams, including mobile, QA, and AI divisions, ensuring seamless collaboration and synchronization across diverse modules.",
+        "Achieved a substantial 40% growth in product revenue by strategizing and executing an automated canteen ticketing system.",
+        "Leveraging these competencies to drive outstanding achievements.",
       ],
       duration: "Jan 2017 - Oct 2018",
+      skills:
+        "Node.js · JavaScript · Angular · C# · Microservices · Design Patterns · Agile Methodologies · .NET Framework · Microsoft SQL Server · jQuery · SQL · EF · Hibernate · Redis",
     },
     {
       company: "IdeaScale",
+      url: "https://www.linkedin.com/company/ideascale",
+      location: "Dhaka, Bangladesh | On Site",
       position: "Lead Software Engineer",
       desc: [
-        "Collaborated with the product team to successfully implement 15 new features using a mobile-first approach. Managed, optimized, troubleshot, and improved websites while conducting 200+ unit tests. Architected and developed frontend systems to ensure robustness and scalability. Implemented effective strategies that resulted in a 40% increase in application speed and scalability, leading to enhanced performance and achieving a 98% user satisfaction rate. Contributed to top-notch outcomes.",
+        "Collaborated with the product team to successfully implement 15 new features using a mobile-first approach.",
+        "Managed, optimized, troubleshot, and improved websites while conducting 200+ unit tests.",
+        "Architected and developed frontend systems to ensure robustness and scalability.",
+        "Implemented effective strategies that resulted in a 40% increase in application speed and scalability, leading to enhanced performance and achieving a 98% user satisfaction rate.",
+        "Contributing to top-notch outcomes.",
       ],
       duration: "Feb 2019 - Jan 2020",
+      skills:
+        "React.js · Node.js · JavaScript · TypeScript · Angular · Agile Methodologies · Java · Spring Boot · jQuery · MySQL · SQL · Elasticsearch",
     },
     {
       company: "SELISE Digital Platforms",
+      url: "https://www.linkedin.com/company/selise",
+      location: "Dhaka, Bangladesh | On Site",
       position: "Senior Software Engineer",
       desc: [
-        "Utilized user-centered design principles to create interfaces that boosted user experience and engagement by 25%. Contributed throughout all stages of product development, successfully implementing RESTful APIs for seamless integration. Revitalized the UI of a complete event management system, executed cross-browser testing, and introduced user-facing features, resulting in a 30% increase in project efficiency.",
+        "Utilized user-centered design principles to create interfaces that boosted user experience and engagement by 25%.",
+        "Contributed throughout all stages of product development, successfully implementing RESTful APIs for seamless integration.",
+        "Revitalized the UI of a complete event management system, executing cross-browser testing, and introducing user-facing features.",
+        "Resulting in a 30% increase in project efficiency.",
       ],
       duration: "Feb 2020 - Apr 2020",
+      skills:
+        "Node.js · MongoDB · JavaScript · TypeScript · Angular · C# · .NET Core · Design Patterns · Agile Methodologies · SQL",
     },
     {
-      company: "SELISE Digital Platforms",
-      position: "MyMedicalHUB",
+      company: "MyMedicalHUB ",
+      url: "https://www.linkedin.com/company/mymedicalhub",
+      location: "Dhaka, Bangladesh | On Site",
+      position: "Software Development Manager",
       desc: [
-        "Provided technical leadership to a cross-functional team, fostering a collaborative environment. Ensured a 50% improvement in project delivery efficiency through close collaboration with stakeholders. Developed user-facing features, applying expertise in relevant technologies. Optimized application speed and scalability, achieving a 30% enhancement through performance tuning and code optimization. Established and maintained active collaboration and communication channels with stakeholders for 100% alignment.",
+        "Provided technical leadership to a cross-functional team, fostering a collaborative environment.",
+        "Ensured a 50% improvement in project delivery efficiency through close collaboration with stakeholders.",
+        "Developed user-facing features, applying expertise in relevant technologies.",
+        "Optimized application speed and scalability, achieving a 30% enhancement through performance tuning and code optimization.",
+        "Established and maintained active collaboration and communication channels with stakeholders for 100% alignment.",
       ],
       duration: "May 2020 - Jul 2022",
+      skills:
+        "TensorFlow · React.js · Node.js · MongoDB · Project Management · JavaScript · TypeScript · Django · C# · .NET Core · Artificial Intelligence (AI) · Machine Learning · Natural Language Processing (NLP) · Microsoft SQL Server · jQuery · SQL · EF · React Native",
     },
     {
-      company: "Principal Software Engineer",
-      position: "QALQUL",
+      company: "QALQUL",
+      url: "https://www.linkedin.com/company/qalqul",
+      location: "Casablanca, Morocco | On Site",
+      position: "Principal Software Engineer",
       desc: [
-        "Developed and designed robust system architectures to ensure scalability and performance, resulting in a 40% boost in efficiency. Implemented process improvements and best practices to maintain high-quality standards during the team's growth, achieving a 30% increase in team productivity. Proactively addressed challenges, realigned priorities, and ensured on-time delivery of projects, maintaining a 95% project punctuality rate. Collaborated closely with project management teams to gather requirements and formulate functional and design documents for 50+ projects. Contributed to and successfully delivered software solutions for 40+ projects.",
+        "Developed and designed sturdy system architectures to ensure scalability and performance, resulting in a 40% boost in efficiency.",
+        "Implemented process improvements and best practices to maintain high-quality standards during a team's growth, achieving a 30% increase in team productivity.",
+        "Proactively addressed challenges, realigned priorities, and ensured on-time delivery of projects, maintaining a 95% project punctuality rate.",
+        "Collaborated closely with project management teams to gather requirements and formulate functional and design documents for 50+ projects.",
+        "Contributed and successfully delivered software solutions for 40+ projects.",
       ],
       duration: "Aug 2022 - Jul 2023",
+      skills:
+        "React.js · Node.js · MongoDB · Project Management · JavaScript · TypeScript · NestJS · Go (Programming Language) · Gin · Jest · PostgreSQL · Microfrontend · Microservices · Design Patterns · Artificial Intelligence (AI) · Machine Learning · Natural Language Processing (NLP) · Scaled Agile Framework · Docker Products · jQuery · MySQL · SQL · Apache Kafka · RabbitMQ · Redis · Elasticsearch",
     },
     {
-      company: "Software Engineer",
-      position: "DoctorBox",
+      company: "DoctorBox",
+      url: "https://www.linkedin.com/company/doctorbox",
+      location: "Berlin, Germany | Remote",
+      position: "Software Engineer",
       desc: [
-        "Designing and developing user-friendly interfaces with ReactJS. Implementing state management using React Query, Redux, or Context API. Integrating TypeScript for strong typing and enhanced code predictability. Collaborating with backend teams for API integration and data management. Building reusable components and optimizing front-end performance. Conducting thorough testing, debugging, and code reviews. Staying abreast of the latest front-end trends and technologies.",
+        "Designing and developing user-friendly interfaces with ReactJS",
+        "Implementing state management using React Query, Redux, or Context API",
+        "Integrating TypeScript for strong typing and enhanced code predictability",
+        "Collaborating with backend teams for API integration and data management",
+        "Building reusable components and optimizing front-end performance",
+        "Conducting thorough testing, debugging, and code reviews",
+        "Staying abreast of the latest front-end trends and technologies",
       ],
       duration: "Aug 2022 - Jul 2023",
+      skills:
+        "React.js · JavaScript · TypeScript · Design Patterns · Docker Products · Java",
     },
   ];
 

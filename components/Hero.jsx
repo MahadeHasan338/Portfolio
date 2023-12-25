@@ -45,7 +45,12 @@ const Hero = () => {
             <h2 className="text-lg md:text-2xl">I am a</h2>
             <Typewriter
               options={{
-                strings: ["Lead Fullstack Engineer", "Cloud Tech Advocate"],
+                strings: [
+                  "Software Architect",
+                  "Principal Software Engineer",
+                  "Lead Software Engineer",
+                  "AI/ML Engineer",
+                ],
                 autoStart: true,
                 loop: true,
                 deleteSpeed: 50,
@@ -92,7 +97,7 @@ const Hero = () => {
             <Image
               alt="tech-stack"
               className="h-8 w-8 md:h-10 md:w-10 object-cover"
-              src="/hero/project-manage.png"
+              src="/hero/net.webp"
               width={100}
               height={100}
             />
@@ -101,7 +106,7 @@ const Hero = () => {
             <Image
               alt="tech-stack"
               className="h-8 w-8 md:h-10 md:w-10 object-cover"
-              src="/hero/react.webp"
+              src="/hero/python.png"
               width={100}
               height={100}
             />
@@ -110,7 +115,7 @@ const Hero = () => {
             <Image
               alt="tech-stack"
               className="h-6 w-6 md:h-10 md:w-10 object-cover"
-              src="/hero/python.png"
+              src="/hero/node-js.webp"
               width={100}
               height={100}
             />
@@ -119,7 +124,7 @@ const Hero = () => {
             <Image
               alt="tech-stack"
               className="h-10 w-10 object-cover"
-              src="/hero/node-js.webp"
+              src="/hero/react.webp"
               width={100}
               height={100}
             />

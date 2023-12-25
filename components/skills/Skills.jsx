@@ -135,14 +135,34 @@ const Skills = () => {
       image: "/tech/backend/aws.webp",
     },
     {
+      name: "NumPy",
+      category: "AI",
+      image: "/tech/AI/numpy.svg",
+    },
+    {
+      name: "Tensorflow",
+      category: "AI",
+      image: "/tech/AI/tensorflow.webp",
+    },
+    {
+      name: "PyTorch",
+      category: "AI",
+      image: "/tech/AI/pytorch.png",
+    },
+    {
+      name: "NLP",
+      category: "AI",
+      image: "/tech/AI/nlp.webp",
+    },
+    {
+      name: "YOLOv8",
+      category: "AI",
+      image: "/tech/AI/yolov.png",
+    },
+    {
       name: "Google",
       category: "Others",
       image: "/tech/others/google.webp",
-    },
-    {
-      name: "Java",
-      category: "Others",
-      image: "/tech/others/java.webp",
     },
     {
       name: "Android Studio",

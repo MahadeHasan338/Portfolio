@@ -20,7 +20,7 @@ const About = () => {
             src="/about/shohel.jpeg"
           />
           <span className="font-medium font-sans">
-            {"< I Build Stuff 🚀 />"}
+            {"< I Build Stuff 👨🏻‍💻 />"}
           </span>
         </div>
 

@@ -8,7 +8,7 @@ const Projects = () => {
     {
       name: "JavaScript Projects Website",
       image: "/projects/other/other-1.webp",
-      category: "Web Development",
+      category: "AI/ML",
       techstack: "HTML5, CSS3, TailwindCSS, SCSS, JavaScript, jQuery, Netlify",
       links: {
         visit: "https://example.com/project1",
@@ -30,7 +30,7 @@ const Projects = () => {
     {
       name: "WebChat Website",
       image: "/projects/mern-stack/mern-7.webp",
-      category: "MERN Stack",
+      category: "Web Development",
       techstack: "HTML5, CSS3 JavaScript, NodeJS, Socket.io",
       links: {
         visit: "https://example.com/project3",
@@ -41,7 +41,7 @@ const Projects = () => {
     {
       name: "ResumeGen",
       image: "/projects/mern-stack/mern-3.webp",
-      category: "MERN Stack",
+      category: "Web Development",
       techstack: "JavaScript, ReactJS, Chakra UI, ContextAPI, Netlify",
       links: {
         visit: "https://example.com/project3",
@@ -52,7 +52,7 @@ const Projects = () => {
     {
       name: "React Projects",
       image: "/projects/mern-stack/mern-4.webp",
-      category: "MERN Stack",
+      category: "Web Development",
       techstack:
         "ReactJS, Redux, NodeJS, ExpressJS, MongoDB, TailwindCSS, Material UI",
       links: {
@@ -64,7 +64,7 @@ const Projects = () => {
     {
       name: "Web UI Clones",
       image: "/projects/mern-stack/mern-5.webp",
-      category: "MERN Stack",
+      category: "Web Development",
       techstack:
         "HTML5, CSS3, TailwindCSS, JavaScript, NodeJS, jQuery, Netlify",
       links: {
@@ -76,7 +76,7 @@ const Projects = () => {
     {
       name: "Crypto Tracker",
       image: "/projects/mern-stack/mern-6.webp",
-      category: "MERN Stack",
+      category: "Web Development",
       techstack: "JavaScript, ReactJS, Chakra UI, Coingecko API",
       links: {
         visit: "https://example.com/project3",
@@ -87,7 +87,7 @@ const Projects = () => {
     {
       name: "Instagram MERN",
       image: "/projects/mern-stack/mern-1.webp",
-      category: "MERN Stack",
+      category: "Web Development",
       techstack:
         "ReactJS, Redux, NodeJS, ExpressJS, MongoDB, TailwindCSS, MUI, AWS S3, SendGrid, Socket.IO",
       links: {
@@ -99,7 +99,7 @@ const Projects = () => {
     {
       name: "Flipkart MERN",
       image: "/projects/mern-stack/mern-2.webp",
-      category: "MERN Stack",
+      category: "Web Development",
       techstack:
         "ReactJS, Redux, NodeJS, ExpressJS, MongoDB, TailwindCSS, MUI, Paytm, Cloudinary, SendGrid",
       links: {
@@ -127,7 +127,7 @@ const Projects = () => {
 
   useEffect(() => {
     filterProjects(
-      categories.includes("MERN Stack") ? "MERN Stack" : categories[0]
+      categories.includes("Web Development") ? "Web Development" : categories[0]
     );
   }, []);
 

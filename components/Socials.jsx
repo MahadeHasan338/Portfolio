@@ -3,7 +3,8 @@ import Link from "next/link";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
-import { BsTwitterX } from "react-icons/bs";
+import { FaStackOverflow } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
 
 const Socials = () => {
   const socials = [
@@ -25,7 +26,12 @@ const Socials = () => {
     {
       id: 4,
       link: "https://twitter.com/mdshohelrana85",
-      icon: <BsTwitterX />,
+      icon: <FaSquareXTwitter />,
+    },
+    {
+      id: 5,
+      link: "https://stackoverflow.com/users/2328891/shohel",
+      icon: <FaStackOverflow />,
     },
   ];
 
