@@ -15,12 +15,17 @@ const Skills = () => {
       image: "/tech/frontend/typeScript.webp",
     },
     {
-      name: "AngularJS",
+      name: "Angular",
       category: "Frontend",
       image: "/tech/frontend/angular.webp",
     },
     {
       name: "AngularJS",
+      category: "Frontend",
+      image: "/tech/frontend/angular-js.webp",
+    },
+    {
+      name: "VueJS",
       category: "Frontend",
       image: "/tech/frontend/vue.svg",
     },
@@ -48,6 +53,11 @@ const Skills = () => {
       name: "Material UI",
       category: "Frontend",
       image: "/tech/frontend/material-ui.webp",
+    },
+    {
+      name: "Styled Component",
+      category: "Frontend",
+      image: "/tech/frontend/styled-components.png",
     },
     {
       name: "HTML5",
@@ -135,6 +145,41 @@ const Skills = () => {
       image: "/tech/backend/aws.webp",
     },
     {
+      name: "Php",
+      category: "Backend",
+      image: "/tech/backend/php.png",
+    },
+    {
+      name: "Flask",
+      category: "Backend",
+      image: "/tech/backend/flask.png",
+    },
+    {
+      name: "Webhooks",
+      category: "Backend",
+      image: "/tech/backend/webhooks.png",
+    },
+    {
+      name: "Redis",
+      category: "Backend",
+      image: "/tech/backend/redis.png",
+    },
+    {
+      name: "GraphQl",
+      category: "Backend",
+      image: "/tech/backend/graphql.png",
+    },
+    {
+      name: "Elasticsearch,",
+      category: "Backend",
+      image: "/tech/backend/elastic.png",
+    },
+    {
+      name: "BigQuery,",
+      category: "Backend",
+      image: "/tech/backend/big.png",
+    },
+    {
       name: "NumPy",
       category: "AI",
       image: "/tech/AI/numpy.svg",
@@ -155,9 +200,59 @@ const Skills = () => {
       image: "/tech/AI/nlp.webp",
     },
     {
+      name: "Apache Spark",
+      category: "AI",
+      image: "/tech/AI/spark.png",
+    },
+    {
+      name: "Scikit-Lear",
+      category: "AI",
+      image: "/tech/AI/learn.png",
+    },
+    {
       name: "YOLOv8",
       category: "AI",
       image: "/tech/AI/yolov.png",
+    },
+    {
+      name: "Eslint",
+      category: "QA/Testing",
+      image: "/tech/QA/eslint.webp",
+    },
+    {
+      name: "Prettier",
+      category: "QA/Testing",
+      image: "/tech/QA/prettier.png",
+    },
+    {
+      name: "Cypress",
+      category: "QA/Testing",
+      image: "/tech/QA/cypress.png",
+    },
+    {
+      name: "Mocha",
+      category: "QA/Testing",
+      image: "/tech/QA/mocha.png",
+    },
+    {
+      name: "Jest",
+      category: "QA/Testing",
+      image: "/tech/QA/jest.webp",
+    },
+    {
+      name: "Enzyme",
+      category: "QA/Testing",
+      image: "/tech/QA/enzyme.png",
+    },
+    {
+      name: "Jira",
+      category: "QA/Testing",
+      image: "/tech/QA/jira.png",
+    },
+    {
+      name: "A/B Testing",
+      category: "QA/Testing",
+      image: "/tech/QA/ab.png",
     },
     {
       name: "Google",
@@ -223,7 +318,7 @@ const Skills = () => {
     <SectionWrapper id="skills" className="mb-28 lg:mb-40 ">
       <h2 className="text-4xl text-center">Tech Stack</h2>
 
-      <div className="md:w-1/2 overflow-x-auto scroll-hide lg:w-1/3 mx-auto mt-6 bg-white dark:bg-grey-800 p-2 flex justify-between items-center gap-3 rounded-md">
+      <div className="w-11/12 md:w-10/12 overflow-x-auto scroll-hide lg:w-1/2 mx-auto mt-6 bg-white dark:bg-grey-800 p-2 flex justify-between items-center gap-3 rounded-md">
         {categories.map((c, i) => (
           <span
             key={i}

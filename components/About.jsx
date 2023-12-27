@@ -9,7 +9,7 @@ const About = () => {
     >
       <h2 className="text-4xl text-center">About Me</h2>
 
-      <div className="w-full lg:w-11/12 2xl:w-4/5 mt-2 lg:mt-20 mx-auto flex flex-col md:gap-4 lg:flex-row justify-between items-center">
+      <div className="w-full lg:w-11/12 2xl:w-4/5 mt-6 mx-auto flex flex-col md:gap-4 lg:flex-row justify-between items-center">
         <div className="p-3 w-56 self-start md:w-2/5 lg:w-72 bg-white dark:bg-grey-800 flex flex-col gap-2 items-center rounded-2xl mx-auto lg:mx-16 hover:-translate-y-2 transition-transform duration-300 lg:-rotate-3">
           <Image
             alt="profile"
@@ -24,26 +24,29 @@ const About = () => {
           </span>
         </div>
 
-        <div className="flex-1 text-left mx-4 mt-4 md:mt-0 md:mx-0 md:p-6">
+        <div className="flex-1 text-left mx-4 mt-4 md:mt-0 md:mx-0 px-6">
           <div className="flex flex-col gap-2.5">
             <p className="text-3xl font-semibold">Shohel Rana</p>
             <p className="text-violet-800 w-fit rounded py-1 px-2 text-sm dark:text-violet-600 bg-violet-50 dark:bg-violet-900/10">
               Lead Full Stack Engineer
             </p>
             <p className="text-sm md:text-base my-2 text-gray-600 dark:text-gray-300">
-              I am a seasoned Lead Full-Stack Engineer with 14+ years of
-              expertise in React, .NET, Python, and Node.js. Innovating in
-              healthcare, data analytics, and SaaS, I enhance software with
-              AI/ML, delivering robust, secure solutions. A driver of business
-              growth and tech evolution, I consistently surpass goals and foster
-              a You build, You run culture. Leveraging technology, I maximize
-              customer satisfaction and business success. I excel in delivering
-              high-quality solutions, ensuring accountability, and fostering
-              collaborative, diverse teams for professional growth.
+              As a highly educated and experienced Software Development Manager
+              with over 14 years of experience, I specialize in large, complex
+              commercial projects, utilizing my expertise in Python, Django,
+              Node.js, and React. My work in innovating healthcare, ERP/CRM,
+              omnichannel data analytics, payment systems, and SaaS has allowed
+              me to enhance software with AI/ML, delivering robust and secure
+              solutions. A catalyst for business growth and technological
+              evolution, I consistently surpass goals and advocate for a You
+              build, You run culture. By leveraging technology, I maximize
+              customer satisfaction and drive business success. I am committed
+              to delivering high-quality solutions, ensuring accountability, and
+              fostering collaborative, diverse teams for professional growth.
             </p>
             <div className="flex items-center gap-4 md:mt-4">
               <Link
-                href="https://drive.google.com/file/d/1GfPtcWoDYYPcwatobfIa2HwTe981_ZZK/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1O3E1hCo7Copd0oxlw6IxL8bFE9C5Umsd/view?fbclid=IwAR2IRfTTnztsEDm1i-xP_kd3K9xxScoIrOPZ7VEmuXJg9YGye2qs8vQDKc0"
                 target="_blank"
                 className="text-sm md:text-base bg-violet-600 dark:bg-violet-700 text-white w-fit rounded-md py-2 px-6 hover:shadow-xl transition-shadow"
               >

@@ -2,9 +2,9 @@
 import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
 import Link from "next/link";
+import Image from "next/image";
 import { Link as ScrollLink } from "react-scroll";
 import { FiSun, FiMoon } from "react-icons/fi";
-import { FaNodeJs } from "react-icons/fa";
 import { CgClose, CgMenuRight } from "react-icons/cg";
 
 export default function Header() {
@@ -38,9 +38,15 @@ export default function Header() {
       <nav className="lg:w-11/12 2xl:w-4/5 w-full md:px-6 2xl:px-0 mx-auto py-4 hidden lg:flex items-center justify-between">
         <Link
           href={"/"}
-          className="font-bold hover:text-violet-700 hover:dark:text-violet-500 transition-colors duration-300"
+          className="flex items-center space-x-2 font-bold"
         >
-          Shohel Rana
+          <Image
+            src="/hero/shohel-icon.png"
+            alt="logo"
+            width={30}
+            height={30}
+          ></Image>
+          <span>Shohel Rana</span>
         </Link>
 
         <ul className="flex items-center gap-8">
@@ -84,7 +90,18 @@ export default function Header() {
       </nav>
 
       <nav className="font-bold p-4 flex lg:hidden items-center justify-between">
-        Shohel Rana
+        <Link
+          href={"/"}
+          className="flex items-center space-x-2 font-bold"
+        >
+          <Image
+            src="/hero/shohel-icon.png"
+            alt="logo"
+            width={30}
+            height={30}
+          ></Image>
+          <span>Shohel Rana</span>
+        </Link>
         <div className="flex items-center gap-4">
           <span
             onClick={() => setTheme(theme === "dark" ? "light" : "dark")}

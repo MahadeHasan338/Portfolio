@@ -23,89 +23,136 @@ const Projects = () => {
       techstack: "JavaScript, React Native, Expo, TailwindCSS, Firebase",
       links: {
         visit: "https://example.com/project3",
-        code: "https://github.com/example/project3",
-        video: "https://youtube.com/example-video3",
       },
     },
     {
-      name: "WebChat Website",
+      name: "Artwork",
+      image: "/projects/mern-stack/mern-6.webp",
+      category: "Web",
+      techstack: "React, Python, Django",
+      links: {
+        visit: "https://example.com/project3",
+      },
+    },
+    {
+      name: "Parkolay",
+      image: "/projects/mern-stack/mern-6.webp",
+      category: "Web",
+      techstack: "React, Python, Django",
+      links: {
+        visit: "https://example.com/project3",
+      },
+    },
+    {
+      name: "Mobile Inventory Management System",
+      image: "/projects/mern-stack/mern-6.webp",
+      category: "Web",
+      techstack: "C#, Microsoft SQL Server, SQL, Visual Basic, EF",
+      links: {
+        visit: "https://example.com/project3",
+      },
+    },
+    {
+      name: "Cycling Event Management System",
+      image: "/projects/mern-stack/mern-6.webp",
+      category: "Web",
+      techstack: "C#, Microsoft SQL Server, SQL, EF",
+      links: {
+        visit: "https://example.com/project3",
+      },
+    },
+    {
+      name: "Composite Knitwear ERP",
+      image: "/projects/mern-stack/mern-6.webp",
+      category: "Web",
+      techstack: "C#, Microsoft SQL Server, SQL, EF",
+      links: {
+        visit: "https://example.com/project3",
+      },
+    },
+    {
+      name: "2D Cutting Stock Algorithm for Printing Industries",
+      image: "/projects/mern-stack/mern-6.webp",
+      category: "Web",
+      techstack: "SQL, EF",
+      links: {
+        visit: "https://example.com/project3",
+      },
+    },
+    {
+      name: "Volunteer Management System",
+      image: "/projects/mern-stack/mern-6.webp",
+      category: "Web",
+      techstack: "C#, Microsoft Azure, Microsoft SQL Server, SQL, EF",
+      links: {
+        visit: "https://example.com/project3",
+      },
+    },
+    {
+      name: "Task Management System",
       image: "/projects/mern-stack/mern-7.webp",
       category: "Web",
-      techstack: "HTML5, CSS3 JavaScript, NodeJS, Socket.io",
+      techstack: "C#, Microsoft SQL Server, SQL, EF",
       links: {
         visit: "https://example.com/project3",
-        code: "https://github.com/example/project3",
-        video: "https://youtube.com/example-video3",
       },
     },
     {
-      name: "ResumeGen",
+      name: "Software Prototyping System",
       image: "/projects/mern-stack/mern-3.webp",
       category: "Web",
-      techstack: "JavaScript, ReactJS, Chakra UI, ContextAPI, Netlify",
+      techstack: "C#, Microsoft SQL Server, jQuery, SQL, EF",
       links: {
         visit: "https://example.com/project3",
-        code: "https://github.com/example/project3",
-        video: "https://youtube.com/example-video3",
       },
     },
     {
-      name: "React Projects",
+      name: "NEXT ERP Solutions",
       image: "/projects/mern-stack/mern-4.webp",
       category: "Web",
-      techstack:
-        "ReactJS, Redux, NodeJS, ExpressJS, MongoDB, TailwindCSS, Material UI",
+      techstack: "C#, Microsoft SQL Server, Angular, jQuery, SQL, EF, Redis",
       links: {
         visit: "https://example.com/project3",
-        code: "https://github.com/example/project3",
-        video: "https://youtube.com/example-video3",
       },
     },
     {
-      name: "Web UI Clones",
+      name: "Idea Management System",
       image: "/projects/mern-stack/mern-5.webp",
       category: "Web",
       techstack:
-        "HTML5, CSS3, TailwindCSS, JavaScript, NodeJS, jQuery, Netlify",
+        "React.js, Node.js, TypeScript, JavaScript, Angular, MySQL, SQL, Elasticsearch",
       links: {
         visit: "https://example.com/project3",
-        code: "https://github.com/example/project3",
-        video: "https://youtube.com/example-video3",
       },
     },
     {
-      name: "Crypto Tracker",
+      name: "Efficient Musculoskeletal Management Assistant (EMMA)",
       image: "/projects/mern-stack/mern-6.webp",
       category: "Web",
-      techstack: "JavaScript, ReactJS, Chakra UI, Coingecko API",
+      techstack:
+        "React.js, Node.js, C#, .NET Core, TypeScript, JavaScript, MongoDB, Project Management, Django, Microsoft SQL Server, TensorFlow, Artificial Intelligence (AI), Machine Learning, Natural Language Processing (NLP), jQuery, SQL, EF, React Native",
       links: {
         visit: "https://example.com/project3",
-        code: "https://github.com/example/project3",
-        video: "https://youtube.com/example-video3",
       },
     },
     {
-      name: "Instagram MERN",
+      name: "Unified-IOP – Unified Intelligent Operations Platform",
       image: "/projects/mern-stack/mern-1.webp",
       category: "Web",
       techstack:
-        "ReactJS, Redux, NodeJS, ExpressJS, MongoDB, TailwindCSS, MUI, AWS S3, SendGrid, Socket.IO",
+        "React.js, Node.js, TypeScript, JavaScript, NestJS, MongoDB, Project Management, Go (Programming Language), Gin, Jest, Microfrontend, Microservices, Artificial Intelligence (AI), Machine Learning, Natural Language Processing (NLP), Docker Products, jQuery, MySQL, SQL, Apache Kafka, RabbitMQ, Redis, Elasticsearch",
       links: {
         visit: "https://example.com/project3",
-        code: "https://github.com/example/project3",
-        video: "https://youtube.com/example-video3",
       },
     },
     {
-      name: "Flipkart MERN",
+      name: "DoctorBox - the super app for your health",
       image: "/projects/mern-stack/mern-2.webp",
       category: "Web",
       techstack:
-        "ReactJS, Redux, NodeJS, ExpressJS, MongoDB, TailwindCSS, MUI, Paytm, Cloudinary, SendGrid",
+        "Python (Programming Language), Next.js, Amazon Web Services (AWS), Machine Learning",
       links: {
         visit: "https://example.com/project3",
-        code: "https://github.com/example/project3",
-        video: "https://youtube.com/example-video3",
       },
     },
   ];
