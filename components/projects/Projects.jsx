@@ -7,7 +7,7 @@ const Projects = () => {
   const projectsData = [
     {
       name: "JavaScript Projects Website",
-      image: "/projects/other/other-1.webp",
+      image: "/projects/AI/other-1.webp",
       category: "AI/ML",
       techstack: "HTML5, CSS3, TailwindCSS, SCSS, JavaScript, jQuery, Netlify",
       links: {
@@ -27,16 +27,7 @@ const Projects = () => {
     },
     {
       name: "Artwork",
-      image: "/projects/mern-stack/mern-6.webp",
-      category: "Web",
-      techstack: "React, Python, Django",
-      links: {
-        visit: "https://example.com/project3",
-      },
-    },
-    {
-      name: "Parkolay",
-      image: "/projects/mern-stack/mern-6.webp",
+      image: "/projects/web/artwork.png",
       category: "Web",
       techstack: "React, Python, Django",
       links: {
@@ -49,7 +40,7 @@ const Projects = () => {
       category: "Web",
       techstack: "C#, Microsoft SQL Server, SQL, Visual Basic, EF",
       links: {
-        visit: "https://example.com/project3",
+        visit: "/",
       },
     },
     {
@@ -58,7 +49,7 @@ const Projects = () => {
       category: "Web",
       techstack: "C#, Microsoft SQL Server, SQL, EF",
       links: {
-        visit: "https://example.com/project3",
+        visit: "/",
       },
     },
     {
@@ -67,7 +58,7 @@ const Projects = () => {
       category: "Web",
       techstack: "C#, Microsoft SQL Server, SQL, EF",
       links: {
-        visit: "https://example.com/project3",
+        visit: "/",
       },
     },
     {
@@ -76,7 +67,7 @@ const Projects = () => {
       category: "Web",
       techstack: "SQL, EF",
       links: {
-        visit: "https://example.com/project3",
+        visit: "/",
       },
     },
     {
@@ -85,16 +76,16 @@ const Projects = () => {
       category: "Web",
       techstack: "C#, Microsoft Azure, Microsoft SQL Server, SQL, EF",
       links: {
-        visit: "https://example.com/project3",
+        visit: "/",
       },
     },
     {
       name: "Task Management System",
-      image: "/projects/mern-stack/mern-7.webp",
+      image: "/projects/mern-stack/mern-6.webp",
       category: "Web",
       techstack: "C#, Microsoft SQL Server, SQL, EF",
       links: {
-        visit: "https://example.com/project3",
+        visit: "/",
       },
     },
     {
@@ -103,56 +94,75 @@ const Projects = () => {
       category: "Web",
       techstack: "C#, Microsoft SQL Server, jQuery, SQL, EF",
       links: {
-        visit: "https://example.com/project3",
+        visit: "/",
       },
     },
     {
       name: "NEXT ERP Solutions",
-      image: "/projects/mern-stack/mern-4.webp",
+      image: "/projects/web/next.png",
       category: "Web",
       techstack: "C#, Microsoft SQL Server, Angular, jQuery, SQL, EF, Redis",
       links: {
-        visit: "https://example.com/project3",
+        visit: "/",
+      },
+    },
+    {
+      name: "Pridesys ERP",
+      image: "/projects/web/preside.png",
+      category: "Web",
+      techstack:
+        "JavaScript, Microsoft SQL Server, Angular, Microservices, Java, Spring Boot, SQL",
+      links: {
+        visit: "https://pridesys.com/",
       },
     },
     {
       name: "Idea Management System",
-      image: "/projects/mern-stack/mern-5.webp",
+      image: "/projects/web/school.png",
       category: "Web",
       techstack:
         "React.js, Node.js, TypeScript, JavaScript, Angular, MySQL, SQL, Elasticsearch",
       links: {
-        visit: "https://example.com/project3",
+        visit: "https://ideascale.com/",
+      },
+    },
+    {
+      name: "Parkolay",
+      image: "/projects/web/parkoly.png",
+      category: "Web",
+      techstack: "React, Python, Django",
+      links: {
+        visit: "https://parkolay.netlify.app/app",
       },
     },
     {
       name: "Efficient Musculoskeletal Management Assistant (EMMA)",
-      image: "/projects/mern-stack/mern-6.webp",
+      image: "/projects/web/medic.png",
       category: "Web",
       techstack:
         "React.js, Node.js, C#, .NET Core, TypeScript, JavaScript, MongoDB, Project Management, Django, Microsoft SQL Server, TensorFlow, Artificial Intelligence (AI), Machine Learning, Natural Language Processing (NLP), jQuery, SQL, EF, React Native",
       links: {
-        visit: "https://example.com/project3",
+        visit: "https://mymedicalhub.com/",
       },
     },
     {
       name: "Unified-IOP – Unified Intelligent Operations Platform",
-      image: "/projects/mern-stack/mern-1.webp",
+      image: "/projects/web/unified.png",
       category: "Web",
       techstack:
         "React.js, Node.js, TypeScript, JavaScript, NestJS, MongoDB, Project Management, Go (Programming Language), Gin, Jest, Microfrontend, Microservices, Artificial Intelligence (AI), Machine Learning, Natural Language Processing (NLP), Docker Products, jQuery, MySQL, SQL, Apache Kafka, RabbitMQ, Redis, Elasticsearch",
       links: {
-        visit: "https://example.com/project3",
+        visit: "https://qalqul.com",
       },
     },
     {
       name: "DoctorBox - the super app for your health",
-      image: "/projects/mern-stack/mern-2.webp",
+      image: "/projects/web/doctorbox.webp",
       category: "Web",
       techstack:
         "Python (Programming Language), Next.js, Amazon Web Services (AWS), Machine Learning",
       links: {
-        visit: "https://example.com/project3",
+        visit: "https://www.doctorbox.de",
       },
     },
   ];

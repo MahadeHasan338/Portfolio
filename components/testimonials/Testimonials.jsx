@@ -1,6 +1,7 @@
 import TestimonialImg01 from "/public/testimonials/alouni.jpeg";
 import TestimonialImg02 from "/public/testimonials/no-image.jpg";
-import TestimonialImg03 from "/public/testimonials/khayrul.jpeg";
+import TestimonialImg03 from "/public/testimonials/shibbir.jpeg";
+import TestimonialImg04 from "/public/testimonials/no-image.jpg";
 import FancyTestimonialsSlider from "./TestimonialCards";
 import SectionWrapper from "../SectionWrapper";
 
@@ -9,24 +10,31 @@ export default function FancyTestimonialSliderPage() {
     {
       img: TestimonialImg01,
       quote:
-        "It is an honor to work with Mr.Shohel Rana, the amount of knowledge and experience he has during all his experiences made him a great senior engineer, who can be a great team leader, regarding his ability to navigate between the management side and the development side.",
+        "Working with Mr. Shohel Rana is an honor. His wealth of experience and knowledge positions him as a senior engineer and adept team leader, seamlessly navigating both management and development.",
       name: "Alouani Youssef",
       role: "Software Engineer",
     },
     {
       img: TestimonialImg02,
       quote:
-        "I was Shohel’s team lead and mentor at Next IT Limited, Dhaka, Bangladesh. We worked together for ten years, from 2010 to 2020. During the time we worked together, I have seen how dedicated he was towards his work and how skillfully he overcame complex challenges that are essential to being a software engineer. I got him detail oriented and rarely has any bugs in his finished product. I can say that he has tremendous potential to face any challenges in a complex project. The nicest thing is that he is a wonderful team player and knows how to fulfill the artistic objectives of the project in the best way possible.I would whole-heartedly recommend Shohel for your Software Engineer position and I believe you should seize the opportunity to have a dynamic and skilled programmer on your team.",
+        "I mentored Shohel at Next IT Limited, Dhaka, from 2010 to 2020. He's dedicated, detail-oriented, and skilled at overcoming complex challenges. Shohel excels in fulfilling artistic project objectives. Highly recommend him for your Software Engineer position.",
       name: "Mahbubr Rashid",
       role: "Chief Technology Officer",
     },
     {
       img: TestimonialImg03,
       quote:
-        "Experienced person with good leadership skill. He was my team lead and we worked together for 1 year and 2 months. I learned so much from him about software development, javascript and reactjs.",
-      name: "Md Khayrul Islam",
+        "I've worked alongside Shohel Rana for years and wholeheartedly recommend him as an excellent software engineer. He's motivated, committed to learning, and delivers robust solutions. Shohel's passion for learning and dedication will fuel his career growth.",
+      name: "Shibbir Ahmed Asif",
       role: "Software Engineer",
-    }
+    },
+    {
+      img: TestimonialImg04,
+      quote:
+        "Shohel Rana excels in full-stack development, demonstrating deep technical expertise and leadership. He fosters inclusive teams and guides startups through growth. A brilliant engineer and compassionate mentor, he's an asset to any organization.",
+      name: "Shoriful Islam",
+      role: "Solution Architect",
+    },
   ];
 
   return (

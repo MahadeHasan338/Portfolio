@@ -33,7 +33,7 @@ const Project = ({ name, image, category, techstack, links }) => {
           alt={name}
           width={1000}
           height={1000}
-          className="max-w-full h-48 max-h-full object-cover object-top rounded-lg"
+          className="max-w-full h-48 max-h-full object-fit object-center rounded-lg"
           src={image}
         />
         {links.visit.trim() && (
