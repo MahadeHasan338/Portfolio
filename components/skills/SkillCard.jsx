@@ -1,49 +1,28 @@
 import Image from "next/image";
-import { useEffect, useState } from "react";
-import { FastAverageColor } from "fast-average-color";
-import { useTheme } from "next-themes";
 
-const Skill = ({ name, image }) => {
-  const { theme } = useTheme();
-  const [bgColor, setBgColor] = useState("");
-  useEffect(() => {
-    new FastAverageColor()
-      .getColorAsync(image)
-      .then((color) => {
-        const rgba = color.rgb.split(")");
-        setBgColor(rgba[0] + ",0.07)");
-      })
-      .catch((e) => {
-        console.log(e);
-      });
-  }, [image]);
-
+const Skill = ({ category }) => {
   return (
-    <div className="flex flex-col justify-center items-center gap-2">
-      <div
-        title={name}
-        style={{ backgroundColor: bgColor }}
-        className={
-          "h-20 w-20 md:h-24 md:w-24 rounded-full bg-gray-100 dark:bg-grey-800 flex items-center justify-center"
-        }
-      >
-        <Image
-          alt="skill"
-          width={100}
-          height={100}
-          className={`h-12 w-12 md:h-14 md:w-14 object-contain ${
-            theme === "dark" &&
-            (name === "GitHub" ||
-            name === "Vercel" ||
-            name === "NextJS" ||
-            name === "ExpressJS"
-              ? "invert"
-              : "invert-0")
-          }`}
-          src={image}
-        />
+    <div className="mb-10">
+      <h2 className="text-xl mb-3">{category.name}</h2>
+      <div className="flex flex-wrap gap-x-4 gap-y-4">
+        {category.skills.map((skill) => (
+          <div
+            key={skill.name}
+            className="flex items-center bg-violet-100 text-black h-10 px-2 py-1 rounded-md"
+          >
+            <Image
+              src={skill.image}
+              alt={skill.name}
+              width={30}
+              height={30}
+              className="mr-2"
+            />
+            <p className="text-sm md:text-base my-2 text-gray-600 dark:text-gray-300">
+              {skill.name}
+            </p>
+          </div>
+        ))}
       </div>
-      <p className="text-sm md:text-base">{name}</p>
     </div>
   );
 };

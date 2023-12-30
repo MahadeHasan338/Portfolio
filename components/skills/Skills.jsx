@@ -121,22 +121,22 @@ const Skills = () => {
     },
     {
       name: "MongoDB",
-      category: "Backend",
+      category: "Database",
       image: "/tech/backend/mongo.webp",
     },
     {
       name: "PostgreSQL",
-      category: "Backend",
+      category: "Database",
       image: "/tech/backend/postgres.png",
     },
     {
       name: "MySQL",
-      category: "Backend",
+      category: "Database",
       image: "/tech/backend/mysql.png",
     },
     {
       name: "Firebase",
-      category: "Backend",
+      category: "Database",
       image: "/tech/backend/firebase.webp",
     },
     {
@@ -255,11 +255,6 @@ const Skills = () => {
       image: "/tech/QA/ab.png",
     },
     {
-      name: "Google",
-      category: "Others",
-      image: "/tech/others/google.webp",
-    },
-    {
       name: "Android Studio",
       category: "Others",
       image: "/tech/others/studio.webp",
@@ -311,35 +306,27 @@ const Skills = () => {
     },
   ];
 
-  const categories = Array.from(new Set(skillData.map((s) => s.category)));
-  const [category, setCategory] = useState(categories[0]);
+  const categorizedSkills = {};
+  skillData.forEach((skill) => {
+    const { category } = skill;
+    if (!categorizedSkills[category]) {
+      categorizedSkills[category] = {
+        name: category,
+        skills: [],
+      };
+    }
+    categorizedSkills[category].skills.push(skill);
+  });
+
+  const categoryArray = Object.values(categorizedSkills);
 
   return (
-    <SectionWrapper id="skills" className="mb-28 lg:mb-40 ">
-      <h2 className="text-4xl text-center">Tech Stack</h2>
-
-      <div className="w-11/12 md:w-10/12 overflow-x-auto scroll-hide lg:w-1/2 mx-auto mt-6 bg-white dark:bg-grey-800 p-2 flex justify-between items-center gap-3 rounded-md">
-        {categories.map((c, i) => (
-          <span
-            key={i}
-            onClick={() => setCategory(c)}
-            className={`p-1.5 md:p-2 text-sm md:text-base w-full text-center cursor-pointer rounded-md ${
-              category.toLowerCase() === c.toLowerCase()
-                ? "bg-violet-600 dark:bg-violet-600 text-white"
-                : "bg-white dark:bg-grey-800 hover:bg-gray-100 hover:dark:bg-grey-900"
-            } transition-all capitalize`}
-          >
-            {c}
-          </span>
+    <SectionWrapper id="skills" className="mb-28 lg:mb-40">
+      <h2 className="text-4xl text-center mb-8">Tech Stack</h2>
+      <div className="mx-4 md:mx-6 lg:mx-auto lg:w-5/6 2xl:w-3/4 my-4 md:my-8 p-4 bg-white rounded-md">
+        {categoryArray.map((category) => (
+          <SkillCard key={category.name} category={category} />
         ))}
-      </div>
-
-      <div className="lg:w-3/4 2xl:w-3/5 my-8 mx-auto md:px-12 grid grid-cols-3 md:grid-cols-4 xl:grid-cols-5 place-items-center gap-8">
-        {skillData
-          .filter((s) => s.category.toLowerCase() === category.toLowerCase())
-          .map((s, i) => (
-            <SkillCard key={i} {...s} />
-          ))}
       </div>
     </SectionWrapper>
   );
