@@ -217,7 +217,7 @@ const Skills = () => {
     {
       name: "Eslint",
       category: "QA/Testing",
-      image: "/tech/QA/eslint.webp",yarn dev
+      image: "/tech/QA/eslint.webp",
       
     },
     {
